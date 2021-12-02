@@ -46,10 +46,18 @@ button{ display: inline-block;
       padding: 10px;
       border-radius: 10px;
       border: 10px ;
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #fff;
    
   }
-  footer{
-      
-  }
+  #footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #999;
+    color: white;
+    height: 200px
+    
 
+  }
+      
+   

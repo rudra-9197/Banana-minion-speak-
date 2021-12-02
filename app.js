@@ -24,5 +24,11 @@ function clickEventHandler() {
     })
     .catch(errorHandler);
 }
+function textSpeak(){
+  let speech = new SpeechSynthesisUtterance();
+  speech.text =output.innerText;
+  window.speechSynthesis.speak(speech);
+}
 
 buttonTranslate.addEventListener("click", clickEventHandler);
+

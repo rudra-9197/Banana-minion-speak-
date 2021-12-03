@@ -6,20 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana Speak</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+      </style>
+   
   </head>
-  <body>
-    <header></header>
-    <div id="head" style="text-align: center"><h1>Banana talk</h1></div>
+  <body id="body">
+    <header><div id="head" style="text-align: center"><h1>Banana Talk</h1></div></header>
+    <p></p>
+    <p></p>
+    
     <textarea id="text_input" placeholder="put your text heree"></textarea>
-    <div style="text-align: center">
+    <div style="text-align: center" >
       <button id="button_translte">Translate</button>
     </div>
     <p></p>
 
     <div id="output" placeholder="output will come here!!"></div>
-    <button onclick="textSpeak()" >Voice</button>
+    
+    
+    <div id="voiceButton"><button onclick="textSpeak()" >Voice</button></div>
+    <p></p>
    <footer id="footer">
-      <div>thhhh</div>
+     <p></p>
+      <div>About</div>
+    
+      Are you a fan of minions?<div> Did you know that the gibberish they say is an actual language. 
+        Use the translator to convert your text from English to Minion speak or Banana language.</div>
+      
+    </footer>
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
